@@ -36,6 +36,7 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #0099cc;
   padding: 20px;
+  width: 100%;
 }
 
 .col-25 {
@@ -55,5 +56,25 @@ input[type=submit]:hover {
   content: "";
   display: table;
   clear: both;
+  
+/*the left hand handles/bar nav  */
+ menu {
+  float: left;
+  width: 20%;
 }
-}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+} 
+  /* promoition passage*/
+ .main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+   width: 80%;
+    padding: 0;
+} 
+
+
