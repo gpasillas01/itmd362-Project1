@@ -29,12 +29,12 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color:#ff9999;
+  background-color:#226fbd;
 }
 
 .container {
   border-radius: 5px;
-  background-color: lightblue;
+  background-color: #3293a8;
   padding: 20px;
 }
 
