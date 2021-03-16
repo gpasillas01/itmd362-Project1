@@ -77,4 +77,6 @@ input[type=submit]:hover {
     padding: 0;
 } 
 
-
+body { 
+  font-family: Verdana;
+  }
