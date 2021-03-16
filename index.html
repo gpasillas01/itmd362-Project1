@@ -25,4 +25,55 @@
    <p> </p>
    <p> </p> 
   </div>   
-    
+  <div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Full Legal Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Email Address</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Location You Desire to Travel to </label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="USA">USA</option>
+          <option value="CHINA">CHINA</option>
+          <option value="CANADA">CANADA</option>
+          <option value="MEXICO">MEXICO</option>
+          <option value="SOUTH KOREA">SOUTH KOREA</option>
+         <option value="SPAIN">SPAIN</option>
+          <option value="ARGENTINA">ARGENTINA</option>
+  </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Please include desired dates you wish to travel on.</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="By including your desired dates, we will send you an email with all available flights for you to choose from." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
+
+ 
