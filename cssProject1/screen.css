@@ -36,6 +36,10 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #0099cc;
   padding: 20px;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
 
 }
 
@@ -93,7 +97,7 @@ body {
    /* ideal for mobile devices: */
   @media only screen and (max-width:500px) {
  
-  .menu, .main, .right {
+  .menu, .main, .container {
     width: 100%;
     }}
    /* ideal for tablets: */
