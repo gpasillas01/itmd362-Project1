@@ -93,17 +93,14 @@ body {
   
   }
   
-h2 {  text-align: center;
-  background: #00cccc;
- padding : 40px;
-  }
+h2 { background: #d9d9d9;
+  font-size: 48px;
+}
   
- p{  font-size: 30px;
-   text-align: center;
-   font-family: "Brush Script MT", Brush, cursive;
-   padding : 60px
-   background: #94b8b8;
-  }
+p {background: #b3b3b3;
+  font-size: 32px;
+  color: #e6e6e6;
+}
   
   
 /*queries */
