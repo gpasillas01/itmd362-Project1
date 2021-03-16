@@ -262,19 +262,19 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  background-color: #ffcc99;
+  background-color: #66a3ff;
   padding: 20px;
 }
 
 .col-25 {
   float: left;
-  width: 25%;
+  width: 15%;
   margin-top: 6px;
 }
 
 .col-75 {
   float: left;
-  width: 75%;
+  width: 50%;
   margin-top: 6px;
 }
 
