@@ -36,7 +36,7 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #0099cc;
   padding: 20px;
-  width: 100%;
+
 }
 
 .col-25 {
@@ -74,8 +74,7 @@ input[type=submit]:hover {
   width: 60%;
   padding: 0 20px;
   overflow: hidden;
-   width: 80%;
-    padding: 0;
+
 } 
 body {
   text-align: center;
@@ -84,3 +83,28 @@ body {
   font-size: 16px;
   
   }
+  
+  
+  
+  
+  
+  
+/*queries */
+   /* ideal for mobile devices: */
+  @media only screen and (max-width:500px) {
+ 
+  .menu, .main, .right {
+    width: 100%;
+    }}
+   /* ideal for tablets: */
+  @media only screen and (max-width:800px) {
+ 
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+  
