@@ -289,6 +289,10 @@ p {
   font-size: 16px;
 }
 
+h1 {
+   color :#336699;
+}
+
 
 @media only screen and (max-width:800px) {
   /* For tablets: */
