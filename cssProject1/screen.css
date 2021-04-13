@@ -246,7 +246,7 @@ label {
   display: inline-block;
 }
 
-input[type=submit] {
+#submit > input {
   background-color:#99ceff;
   #99ceff
   padding: 12px 20px;
@@ -256,7 +256,7 @@ input[type=submit] {
   float: right;
 }
 
-input[type=submit]:hover {
+#submit > input :hover {
   background-color:#cce6ff;
 }
 
