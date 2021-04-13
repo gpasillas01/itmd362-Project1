@@ -9,3 +9,8 @@ function myFunction() {
   x.style.fontSize = "15px"; 
   x.style.color = "#334d4d"; 
 }
+
+/*button submit */
+function mySubmission() {
+  alert('Your information has been submitted! An agent will contact you shortly.');
+}
