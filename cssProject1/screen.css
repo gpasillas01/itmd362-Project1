@@ -284,6 +284,11 @@ input[type=submit]:hover {
   display: table;
   clear: both;
 }
+/* question responses are smaller than heading */
+p {
+  font-size: 16px;
+}
+
 
 @media only screen and (max-width:800px) {
   /* For tablets: */
